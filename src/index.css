@@ -1,0 +1,102 @@
+
+.navbar {
+  padding-top: 16px !important;
+  padding-bottom: 0px !important;
+}
+
+.bigbutton {
+  min-width: 200px;
+  min-height: 55px;
+  background-color: #000000 !important;
+  border: none !important;
+  color: white;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  box-shadow: 7px 7px 0 0 #FFD700; 
+  border-radius: 4px; 
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d318b4 !important;
+}
+
+.titulo {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.textobanner {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bannercolor {
+  
+  background-color: #f792c8;
+  border-color: #000000;
+}
+
+.cardcolor1 {
+  background-color: #f792c8 !important;
+  border-color: #000000 !important;
+}
+
+.cardcolor2 {
+  background-color: #2dc4b6 !important;
+  border-color: #000000 !important;
+}
+
+.cardcolor3 {
+  background-color: #ffe600 !important;
+  border-color: #000000 !important;
+}
+
+.tituloventajas {
+  font-size: 40px !important;
+  font-weight: 650 !important;
+}
+
+.tituloprecios {
+  font-size: 40px !important;
+  font-weight: 650 !important;
+}
+
+
+.card-text.text-justify {
+  text-align: justify;
+}
+
+.precio {
+  min-height: 430px;
+  max-width: 310px;
+}
+
+.fade-in-card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.zoom-on-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.05);
+}
+
+i {
+  font-size: 30px;
+  color: rgb(90, 18, 18) !important;
+}
+
+html, body {
+  justify-content: center;
+  overflow-x: hidden;
+}
