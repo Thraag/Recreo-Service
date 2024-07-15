@@ -14,7 +14,7 @@ function Analisis2() {
             
             <div className="container-fluid px-0 divisor2 d-none d-md-flex justify-content-center">
                 <div className="px-auto">
-                    <img src="public/ampolleta.png" className="img-fluid ampolleta  " alt="ampolleta" />
+                    <img src="/ampolleta.png" className="img-fluid ampolleta  " alt="ampolleta" />
                 </div>
             </div>
         
