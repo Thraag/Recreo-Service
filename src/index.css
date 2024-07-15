@@ -1,83 +1,281 @@
 
-.navbar {
-  padding-top: 16px !important;
-  padding-bottom: 0px !important;
+
+/* Fondo tipo cuaderno */
+body {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewBox="0 0 60 60"><circle cx="7.5" cy="7.5" r="3" fill="rgba(0, 0, 0, 0.3)"/></svg>') repeat;
+  background-size: 20px 20px; /* Ajusta el tamaño del patrón */
 }
 
-.bigbutton {
+/* Fuente */
+* {
+  font-family: "Bai Jamjuree";
+} 
+
+
+/* Banner*/
+
+.bannercontainer {
+  background-color: #f792c8;
+  border-bottom: #000000 1px solid;
+  border-top: #000000 1px solid;
+}
+
+.bannercontainer .bigbutton {
   min-width: 200px;
   min-height: 55px;
-  background-color: #000000 !important;
-  border: none !important;
+  background-color: #000000;
+  border: none;
   color: white;
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  box-shadow: 7px 7px 0 0 #FFD700; 
-  border-radius: 4px; 
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 7px 7px 0 0 #FFD700;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.btn:hover {
-  background-color: #d318b4 !important;
-}
-
-.titulo {
-  font-size: 50px;
+.bannercontainer .titulo {
+  font-size: 57px;
   font-weight: 700;
 }
 
-.textobanner {
+.bannercontainer .textobanner {
   font-size: 18px;
   font-weight: 400;
 }
 
-.bannercolor {
+@media (max-width: 767px) {
+  .bannercontainernofluid {
+    padding-bottom: 26px; /* Padding bottom de 30 px */
+    padding-top: 16px;
+  }
+}
+
+
+
+
+
+
+/* ventajas */
+.ventajascontainer{
+  .tituloventajas {
+    font-size: 50px ;
+    font-weight: 700;
+  }
+  .cardcolorventajas1{
+  background-color: #f792c8 ;
+  border-color: #000000 ;
+  }
+  .cardcolorventajas2{
+    background-color: #2dc4b6 ;
+    border-color: #000000 ;
+  }
+  .cardcolorventajas3{
+    background-color: #FFD700 ;
+    border-color: #000000 ;
+  }
+}
+
+
+/* logitos de las ventajas */
+.ventajasimagenes {
+  max-width: 80px;
+}
+
+/* precios */
+.precioscontainer{
+  .tituloprecios {
+    font-size: 50px;
+    font-weight: 700  ;
+    }
+  .cardcolor1 {
+    background-color: #f792c8 ;
+    border-color: #000000 ;
+    min-height: 430px;
+    max-width: 310px;
+  }
   
+  .cardcolor2 {
+    background-color: #2dc4b6 ;
+    border-color: #000000 ;
+    max-width: 310px;
+    min-height: 430px;
+  }
+  
+  .cardcolor3 {
+    background-color: #ffe600 ;
+    border-color: #000000 ;
+    min-height: 430px;
+    max-width: 310px;
+  }
+  .titulomensualidad{
+    font-weight: 900;
+    font-size: 35px;
+  }
+  .fa-circle-check{
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+    margin-right: 4px;
+  }
+}
+
+
+/* Video.css */
+
+.video-container {
+  position: relative;
+  padding-bottom: 50%; /* Proporción 16:9 */
+  border-radius: 25px;
+
+  overflow: hidden;
+}
+
+.video-iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* analisis */
+
+
+.ampolletacontainer {
+  border-bottom: #000000 1px solid;
+  border-top: #000000 1px solid;
+  .divisor{
+    background-color: #2dc4b6 ;
+    border-right: #000000 1px solid;
+  }
+  .ampolleta{
+    max-width: 422px;
+    max-height: 527px;
+  }
+  .titulo {
+    font-size: 50px;
+    font-weight: 700;
+  };
+  h3{
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+}
+
+
+/* section */
+
+.sectioncontainer {
   background-color: #f792c8;
-  border-color: #000000;
+  border-bottom: #000000 1px solid;
 }
 
-.cardcolor1 {
-  background-color: #f792c8 !important;
-  border-color: #000000 !important;
+.sectioncontainer .titulo {
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.cardcolor2 {
+.sectioncontainer .textobanner {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sectioncontainer .ampolleta {
+  max-width: 422px;
+  max-height: 527px;
+}
+
+.sectioncontainer h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+   .image-wrapper {
+    padding-top:8px; /* Padding top de 16 px */
+  }
+
+  .text-wrapper{
+    padding-bottom: 6px;
+  }
+  
+  
+  .sectioncontainer .ampolleta {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* analisis2 */
+
+
+.ampolletacontainer2 {
+  .divisor2{
+    border-left: #000000 1px solid !important;
+    background-color:  #FFD700; 
+  }
+  .ampolleta{
+    max-width: 422px;
+  }
+  .titulo {
+    font-size: 50px;
+    font-weight: 700;
+  };
+  h3{
+    font-size: 26px;
+    font-weight: 700;
+  }
+}
+
+/* section 2*/
+
+.sectioncontainer2 {
+  background-color: #2dc4b6 ;
+  border-bottom: #000000 1px solid;
+  border-top: #000000 1px solid;
+ 
+  .bigbutton {
+    min-width: 200px;
+    min-height: 55px;
+    background-color: #000000 ;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 7px 7px 0 0 #FFD700; 
+    border-radius: 4px; 
+    cursor: pointer;
+  };
+  .titulo {
+    font-size: 50px;
+    font-weight: 700;
+  };
+  .textobanner {
+    font-size: 18px;
+    font-weight: 400;
+  };
+}
+
+/* footer */
+
+.botonfooter{
   background-color: #2dc4b6 !important;
-  border-color: #000000 !important;
-}
-
-.cardcolor3 {
-  background-color: #ffe600 !important;
-  border-color: #000000 !important;
-}
-
-.tituloventajas {
-  font-size: 40px !important;
-  font-weight: 650 !important;
-}
-
-.tituloprecios {
-  font-size: 40px !important;
-  font-weight: 650 !important;
 }
 
 
-.card-text.text-justify {
-  text-align: justify;
-}
 
-.precio {
-  min-height: 430px;
-  max-width: 310px;
-}
+
+
+
+
+/* Efectos */
 
 .fade-in-card {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.8s ease-out, transform 0.6s ease-out;
 }
-
 .fade-in-card.visible {
   opacity: 1;
   transform: translateY(0);
@@ -93,10 +291,20 @@
 
 i {
   font-size: 30px;
-  color: rgb(90, 18, 18) !important;
+  color: rgb(24, 24, 24) !important;
 }
 
 html, body {
   justify-content: center;
   overflow-x: hidden;
+
+
+}
+
+
+
+/* footer */
+
+li{
+  color: black !important ;
 }

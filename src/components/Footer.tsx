@@ -1,50 +1,66 @@
+import "../index.css";
 
-import "../index.css"
 function Footer() {
   return (
-    <div className="container mt-5">
-      <footer className="text-center text-white">
-        <div className="container pt-4">
-          {/* MAIL */}
-          <section className="mb-4">
-            <a
-              className="btn-link btn-floating btn-lg m-1"
-              href="mailto:awsjoaquinperez@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fa-solid fa-envelope mx-2 text-light"></i>
-            </a>
-            {/* Linkedin */}
-            <a
-              className="btn-link btn-floating btn-lg m-1"
-              href="https://www.linkedin.com/in/joaquinperezortiz/"
-              target="_blank"
-              rel="noopener noreferrer"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fa-brands fa-linkedin mx-2 text-light"></i>
-            </a>
-            {/* Github */}
-            <a
-              className="btn-link btn-floating btn-lg m-1"
-              href="https://github.com/Thraag?tab=repositories"
-              target="_blank"
-              rel="noopener noreferrer"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fa-brands fa-github mx-2 text-light"></i>
-            </a>
-          </section>
-        </div>
-        {/* Copyright */}
-        <div className="text-center text-light p-3">
-          © 2024 Copyright:
-          <a className="text-light" href="https://mdbootstrap.com/">www.awsjoaquinperez.com</a>
+    <div className="d-flex flex-column h-100 bg-dark text-white">
+      <footer className="w-100 py-4 flex-shrink-0">
+        <div className="container py-4">
+          <div className="row gy-4 gx-5">
+            <div className="col-lg-4 col-md-6">
+              <h5 className="h1 text-white">www.recreo.com</h5>
+              <p className="small text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <p className="small text-white mb-0">
+                &copy; Copyrights. All rights reserved.{" "}
+             
+              </p>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <h5 className="text-white mb-3">Quick links</h5>
+              <ul className="list-unstyled">
+                <li><a className="text-white text-decoration-none" href="#">Home</a></li>
+                <li><a className="text-white text-decoration-none" href="#">About</a></li>
+                <li><a className="text-white text-decoration-none" href="#">Get started</a></li>
+                <li><a className="text-white text-decoration-none" href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <h5 className="text-white mb-3">Quick links</h5>
+              <ul className="list-unstyled">
+                <li><a className="text-white text-decoration-none" href="#">Home</a></li>
+                <li><a className="text-white text-decoration-none" href="#">About</a></li>
+                <li><a className="text-white text-decoration-none" href="#">Get started</a></li>
+                <li><a className="text-white text-decoration-none" href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <h5 className="text-white mb-3">Newsletter</h5>
+              <p className="small text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <form action="#">
+                <div className="input-group mb-3">
+                  <input
+                    className="form-control"
+                    type="text"
+                    placeholder="Recipient's username"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    className="btn btn-primary botonfooter border-0"
+                    id="button-addon2"
+                    type="button"
+                  >
+                    <i className="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
@@ -52,3 +68,4 @@ function Footer() {
 }
 
 export default Footer;
+
