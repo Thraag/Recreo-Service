@@ -5,7 +5,7 @@ function Section() {
         <div className="row">
           <div className="col-md-5 col-sm-12 my-auto">
             <div className=" d-flex justify-content-center align-items-center image-wrapper" > 
-              <img src="public/amigos.png" className="img-fluid ampolleta" alt="amigos"  />
+              <img src="/amigos.png" className="img-fluid ampolleta" alt="amigos"  />
             </div>
           </div>
           <div className="col-md-7 my-auto px-0">
