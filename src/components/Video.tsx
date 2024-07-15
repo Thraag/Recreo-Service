@@ -1,5 +1,3 @@
-
-
 function Video() {
   return (
     <div className="container-fluid pb-5 mb-4">
@@ -7,7 +5,7 @@ function Video() {
         <div className="video-container">
           <iframe 
             className="video-iframe"
-            src="https://www.youtube.com/embed/8ZjFAhQjGzY?rel=0&start=12"
+            src="https://www.youtube.com/embed/tyXazhBtKFw"
             allowFullScreen
             title="YouTube video"
           />
