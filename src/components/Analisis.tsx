@@ -3,7 +3,7 @@ function Analisis() {
         <div className="container-fluid ampolletacontainer d-flex flex-column flex-md-row p-0">
             <div className="container-fluid px-0 divisor  justify-content-center d-none d-md-flex">
                 <div className="px-auto">
-                    <img src="public/ampolleta.png" className="img-fluid ampolleta  " alt="ampolleta" />
+                    <img src="public/ampolleta.png" className="img-fluid ampolleta" alt="ampolleta" />
                 </div>
             </div>
 
