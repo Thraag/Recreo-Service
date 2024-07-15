@@ -8,7 +8,7 @@ function Ventajas() {
           <div className="col-md-4 col-12 mb-4 d-flex">
             <div className="card cardcolorventajas1  zoom-on-hover w-100">
               <div className="card-body text-center d-flex flex-column">
-                <img src="public\BOOK.png" alt=""  className="ventajasimagenes mx-auto"/>
+                <img src="\BOOK.png" alt=""  className="ventajasimagenes mx-auto"/>
                 <h5 className="card-title">Código</h5>
                 <p className="card-text flex-grow-1">
                   Escribe código optimizado con precisión y elegancia.
@@ -19,7 +19,7 @@ function Ventajas() {
           <div className="col-md-4 col-12 mb-4 d-flex">
             <div className="card cardcolorventajas2 text-black zoom-on-hover w-100">
               <div className="card-body text-center d-flex flex-column">
-                <img src="public\people.png" alt="" className="ventajasimagenes mx-auto" />
+                <img src="\people.png" alt="" className="ventajasimagenes mx-auto" />
                 <h5 className="card-title">Prácticas</h5>
                 <p className="card-text flex-grow-1">
                   Aprende las prácticas más eficaces para tu carrera.
@@ -30,7 +30,7 @@ function Ventajas() {
           <div className="col-md-4 col-12 mb-4 d-flex">
             <div className="card cardcolorventajas3 text-black zoom-on-hover w-100">
               <div className="card-body text-center d-flex flex-column">
-                <img src="public\time.png" alt="" className="ventajasimagenes mx-auto" />
+                <img src="\time.png" alt="" className="ventajasimagenes mx-auto" />
                 <h5 className="card-title">Compañerismo</h5>
                 <p className="card-text flex-grow-1">
                   Desenvuélvete en un ambiente laboral que potenciará tu desarrollo.
